@@ -3,7 +3,7 @@
 
 
 <meta charset="utf-8">
-  <link rel="stylesheet" href="bootsrap_style.css">
+  <!--<link rel="stylesheet" href="bootsrap_style.css">-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -33,7 +33,7 @@
     </div>
 
     <!--------------------table----------------->
-    
+
         <div class="container">
             <h2>Basic Table</h2>
             <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
@@ -64,7 +64,334 @@
               
             </table>
         </div>
+    
+    <!---------------table table-striped--------------------->
+        
       
+    <div class="container">
+        <h2>Basic .table-striped</h2>
+        <p>The .table-striped class adds zebra-stripes to a table:</p>            
+        <table class="table table-striped">
+          
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          
+          
+            <tr>
+              <td>John</td>
+              <td>Doee</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          
+        </table>
+    </div>
+
+    
+    <div class="container">
+        <h2>Basic .table-bordered</h2>
+        <p>The .table-bordered class adds borders on
+             all sides of the table and cells::</p>            
+        <table class="table table-bordered">
+          
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          
+          
+            <tr>
+              <td>John</td>
+              <td>Doee</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          
+        </table>
+    </div>
+    
+    <div class="container">
+        <h2>Basic .table-hover</h2>
+        <p>The .table-hover class adds a 
+            hover effect (grey background color) on table rows:</p>            
+        <table class="table table-hover">
+          
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          
+          
+            <tr>
+              <td>John</td>
+              <td>Doee</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          
+        </table>
+    </div>
+    
+    <div class="container">
+        <h2>Basic .table-condensed</h2>
+        <p>The .table-condensed class makes a table 
+            more compact by cutting cell padding in half:</p>            
+        <table class="table table-condensed">
+          
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          
+          
+            <tr>
+              <td>John</td>
+              <td>Doee</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          
+        </table>
+    </div>
+    <div class="container">
+        <h2>Contextual Classes</h2>
+        <p>Contextual classes can be used to 
+            color table rows or table cells.
+             The classes that can be used are: .active, .success, .info, 
+             .warning, and .danger.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Default</td>
+              <td>Defaultson</td>
+              <td>def@somemail.com</td>
+            </tr>      
+            <tr class="success">
+              <td>Success</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr class="danger">
+              <td>Danger</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr class="info">
+              <td>Info</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+            <tr class="warning">
+              <td>Warning</td>
+              <td>Refs</td>
+              <td>bo@example.com</td>
+            </tr>
+            <tr class="active">
+              <td>Active</td>
+              <td>Activeson</td>
+              <td>act@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container">
+        <h2>Table</h2>
+        <p>The .table-responsive class creates a responsive table which will scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, there is no difference:</p>                                                                                      
+        <div class="table-responsive">          
+        <table class="table">
+          
+            <tr>
+              <th>#</th>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+              <th>City</th>
+              <th>Country</th>
+            </tr>
+        
+          
+            <tr>
+              <td>1</td>
+              <td>Anna</td>
+              <td>Pitt</td>
+              <td>35</td>
+              <td>New York</td>
+              <td>USA</td>
+            </tr>
+        
+        </table>
+        </div>
+      </div>
+      <!------------------------imge------------------>
+      <div class="container">
+        <h2>Rounded Corners</h2>
+        <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>            
+        <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" 
+        class="img-rounded" 
+        alt="Cinque Terre" width="304" height="236"> 
+      </div>
+      <div class="container">
+        <h2>circle</h2>
+        <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>            
+        <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" 
+        class="img-circle" 
+        alt="Cinque Terre" width="304" height="236"> 
+      </div>
+      <div class="container">
+        <h2>.img thumbnail</h2>
+        <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>            
+        <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg"
+         class="img-thumbnail" 
+        alt="Cinque Terre" width="304" height="236"> 
+      </div>
+
+
+<!------------------  .thumbnail class to image gallery------->
+  <div class="container">
+        <h2>Image Gallery</h2>
+        <p>The .thumbnail class can be used to display an image gallery.</p>
+        <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+        <p>Click on the images to enlarge them.</p>
+
+    <div class="row">
+   <!--- <div class="colomn"> -->
+        <div class="col-md-4"><!----reduce size---------------->
+         <div class="thumbnail">
+             <!--<div class="col-md-4"> 
+            <div class="col-md-4">-->
+            <a href="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg"> <!--class="col-md-4" style="width:100px" -->
+              <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+             <!-- </div>
+              </div>-->
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg">
+              <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg">
+              <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg">
+              <img src="D:\Antony\websites\New folder (2)\Responsive-Website-Design-master\img\1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p>Lorem ipsum...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!------------------------jumbotron------------------>
+<!------------A jumbotron is displayed as a grey box with rounded corners.
+              It also enlarges the font sizes of the text inside it.------>
+
+<!--------------------jumbotron--inside---container-->  
+            
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bootstrap Tutorial</h1>      
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+  </div>
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+
+<!------------------jumbotron-outside-container-------->
+
+<div class="jumbotron">
+  <h1>Bootstrap Tutorial</h1>      
+  <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+</div>
+
+<div class="container">
+  <p>This is some text.</p>      
+  <p>This is another text.</p>      
+</div>
+
+
+
 </body>
 
 </html>
