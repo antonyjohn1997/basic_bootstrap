@@ -1162,6 +1162,36 @@ Panels are created with the .panel class, and content inside the panel has a .pa
   </div>
 </div>
 
+<!------collapse------>
+<!--The .collapse class indicates a collapsible element (a <div> in our example); this is the content that will be 
+  shown or hidden with a click of a button.
+
+To control (show/hide) the collapsible content, add the data-toggle="collapse" attribute to an <a> or a <button> element. 
+  Then add the data-target="#id" 
+  attribute to connect the button with the collapsible content (<div id="demo">).
+   For <a> elements, you can use the href attribute instead of the data-target attribute  
+  -->
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+
+  <div class="container">
+    <h2>Simple Collapsible</h2>
+    <p>Click on the button to toggle between showing and hiding content.</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demoo">Simple collapsible</button>
+    <div id="demoo" class="collapse in">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </div>
+
 
 </body>
 
